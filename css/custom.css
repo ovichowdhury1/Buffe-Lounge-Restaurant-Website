@@ -1,0 +1,118 @@
+.logo-img-resposive{
+    width: 100%; 
+    height:auto;
+    max-width:300px;
+}
+
+.thumb {
+	margin-bottom: 15px;
+}
+.thumb:last-child {
+	margin-bottom: 0;
+}
+/* CSS Image Hover Effects: https://www.nxworld.net/tips/css-image-hover-effects.html */
+/* .thumb 
+/* figure img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+} */ */
+.thumb 
+figure:hover img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+
+.counter-padding{
+    padding-top: 0 !important;
+}
+.menu-text-center{
+    display: flex; align-items: center; height: 80px;
+}
+
+
+.logo1-box{
+  padding: 0px 0px   !important;
+}
+
+
+
+[data-pagination],
+[data-pagination] *,
+[data-pagination] *:before,
+[data-pagination] *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-kerning: auto;
+}
+[data-pagination] {
+  font-size: 8pt;
+  line-height: 1;
+  font-weight: 400;
+  font-family: 'Open Sans', 'Source Sans Pro', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  margin: 1em auto;
+  text-align: center;
+  transition: font-size .2s ease-in-out;
+}
+[data-pagination] ul {
+  list-style-type: none;
+  display: inline;
+  font-size: 100%;
+  margin: 0;
+  padding: .5em;
+}
+[data-pagination] ul li {
+  display: inline-block;
+  font-size: 100%;
+  width: auto;
+  border-radius: 3px;
+}
+[data-pagination] > a {
+  font-size: 140%;
+}
+[data-pagination] a {
+  color: white;
+  font-size: 100%;
+  padding: .5em;
+}
+[data-pagination] a:focus,
+[data-pagination] a:hover {
+  color: #964B00;
+}
+[data-pagination] li.current {
+  background: #e4c590
+}
+/* Disabled & Hidden Styles */
+[data-pagination] .disabled,
+[data-pagination] [hidden],
+[data-pagination] [disabled] {
+  opacity: .5;
+  pointer-events: none;
+}
+@media (min-width: 350px) {
+  [data-pagination] {
+    font-size: 10pt;
+  }
+}
+@media (min-width: 500px) {
+  [data-pagination] {
+    font-size: 12pt;
+  }
+}
+@media (min-width: 700px) {
+  [data-pagination] {
+    font-size: 14pt;
+  }
+}
+@media (min-width: 900px) {
+  [data-pagination] {
+    font-size: 16pt;
+  }
+}
